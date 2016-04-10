@@ -387,7 +387,7 @@
 .li-map:before {
   content: "\e015";
 }
-.li-map-maker:before {
+.li-map-marker:before {
   content: "\e016";
 }
 .li-mars-double:before {
