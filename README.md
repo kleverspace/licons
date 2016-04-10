@@ -1,8 +1,28 @@
-# licons
+<p align="center"><img src="http://licons.janklever.com.br/examples/licons.png"/></p>
+
 ### line style icons [for web]
 
 Licons is a set with 209 icons in line style created in 2014.
-created and maintained by [Jan Klever](https://janklever.com.br).
+Created and maintained by [Jan Klever](https://janklever.com.br).
+
+
+## Using
+
+### Basic icons
+
+![.li-bike (image)](http://licons.janklever.com.br/examples/bike.png)
+
+    <i class="li-bike"></i>
+
+
+### Larger icons
+
+![.li-bike (image sizes)](http://licons.janklever.com.br/examples/bike-sizes.png)
+
+    <i class="li-bike li-2x"></i>
+    <i class="li-bike li-3x"></i>
+    <i class="li-bike li-4x"></i>
+    <i class="li-bike li-5x"></i>
 
 
 ## [Fontastic](http://fontastic.me/)
@@ -22,3 +42,11 @@ created and maintained by [Jan Klever](https://janklever.com.br).
 - Email: janklever+licons@gmail.com
 - Instagram: http://instagram.com/janklever
 - Behance: https://be.net/janklever
+
+
+
+
+---
+
+
+<p align="center"><br><img src="http://licons.janklever.com.br/examples/logo.png"/></p>
