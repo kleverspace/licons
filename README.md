@@ -6,27 +6,9 @@ Licons is a set with 209 icons in line style created in 2014.
 Created and maintained by [Jan Klever](https://janklever.com.br).
 
 
-## Using
+## Use, mapping and details
 
-### Basic icons
-
-![.li-bike (image)](http://licons.janklever.com.br/examples/bike.png)
-
-    <i class="li-bike"></i>
-
-
-### Larger icons
-
-![.li-bike (image sizes)](http://licons.janklever.com.br/examples/bike-sizes.png)
-
-    <i class="li-bike li-2x"></i>
-    <i class="li-bike li-3x"></i>
-    <i class="li-bike li-4x"></i>
-    <i class="li-bike li-5x"></i>
-
-
-## [Fontastic](http://fontastic.me/)
-- This version of the webfont was created by Fontastic.
+- http://janklever.github.io/licons
 
 
 ## Portfolio project
