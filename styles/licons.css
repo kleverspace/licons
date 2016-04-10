@@ -1,31 +1,27 @@
 @charset "UTF-8";
-
 @font-face {
     font-family: "licons";
-    src:url("../fonts/licons.eot");
-    src:url("../fonts/licons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/licons.woff2") format("woff2"),
-        url("../fonts/licons.woff") format("woff"),
-        url("../fonts/licons.ttf") format("truetype"),
-        url("../fonts/licons.svg#licons") format("svg");
+    src: url("../fonts/licons.eot");
+    src: url("../fonts/licons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/licons.woff2") format("woff2"),
+    url("../fonts/licons.woff") format("woff"),
+    url("../fonts/licons.ttf") format("truetype"),
+    url("../fonts/licons.svg#licons") format("svg");
     font-weight: normal;
     font-style: normal;
-
 }
-
 [data-icon]:before {
-    font-family: "licons" !important;
     content: attr(data-icon);
+    font-family: "licons" !important;
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
     text-transform: none !important;
-    speak: none;
-    line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    speak: none;
 }
-
 [class^="li-"]:before,
 [class*=" li-"]:before {
     font-family: "licons" !important;
@@ -33,12 +29,23 @@
     font-weight: normal !important;
     font-variant: normal !important;
     text-transform: none !important;
-    speak: none;
-    line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    speak: none;
 }
-
+.li-2x {
+    font-size: 2rem;
+}
+.li-3x {
+    font-size: 3rem;
+}
+.li-4x {
+    font-size: 4rem;
+}
+.li-5x {
+    font-size: 5rem;
+}
 .li-accessibility:before {
     content: "\61";
 }
