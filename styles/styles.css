@@ -103,7 +103,21 @@ a:hover {
 
 @media screen and (max-width: 42em) {
     .project-name {
-        font-size: 1.75rem; } }
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .glyph {
+        width: 49% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .glyph {
+        width: 100% !important;
+    }
+}
 
 .project-tagline {
     margin-bottom: 2rem;
@@ -303,6 +317,9 @@ footer {
     border-top: solid 1px #eff0f1;
     text-align: center;
     font-size: 0.8rem;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .site-footer-owner {
@@ -502,4 +519,74 @@ h2 {
 .glyphs.css-mapping input:hover {
     -webkit-box-shadow:inset 0 0 3px #fbde4a;
     box-shadow:inset 0 0 3px #fbde4a;
+}
+
+
+.bshadow0, input {
+    box-shadow: inset 0 -2px #e7e7e7;
+}
+input:hover {
+    box-shadow: inset 0 -2px #fbde4a;
+}
+input, fieldset {
+    font-family: 'Dosis', 'Tahoma', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: .25em 0;
+    border: 0;
+}
+input {
+    color: inherit;
+    line-height: 1.5;
+    height: 2em;
+    padding: .25em 0;
+}
+input:focus {
+    outline: none;
+    box-shadow: inset 0 -2px #ff3000;
+}
+.exIcons {
+    padding: 0 1.2em;
+}
+.exIcons i {
+    margin: 0 1.2em;
+}
+.setTitle {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1em;
+    color: #666 !important;
+}
+.setGroup {
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+.glyph {
+    font-size: 16px;
+    width: 33%;
+    padding: 1em;
+    float: left;
+    overflow: hidden;
+}
+.glyph span {
+    color: #ff3000;
+}
+.glyph .label .txt {
+    margin-left: 15px;
+    line-height: 3rem;
+    vertical-align: top;
+}
+.glyph fieldset input {
+    width: 49%;
+}
+.glyph fieldset .align-right {
+    text-align: right;
+}
+.glyph .ligature span {
+    width: 20%;
+}
+.liga {
+    width: 80%;
+    text-align: right;
+    float: right;
 }
