@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>licons by Jan Klever - v1.1</title>
+    <title>licons by Jan Klever - v1.1.1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name=keywords  content="licons,webfont,less,sass,icons,jan klever,designer,fortaleza,ui/ux,Brazil,advertising" />
     <meta name=description  content="Web font with 209 varied line style icons." /><link rel="icon" href="https://pro2-bar-s3-cdn-cf1.myportfolio.com/81264d1b3bcf48c0043197065b7959f9/2f3acc00-aae1-4895-af8f-d1d90365c497_acc_16x16.png?h=9f2bc5fa7ee5ab22cba7420e8a14cfec" />
@@ -22,9 +22,11 @@
                     var result = ('LI-' + $(this).find('.ligature input').val().toUpperCase()).indexOf(txt.toUpperCase());
                     if (result < 0) {
                         $(".setTitle").hide();
+                        $(".searchTitle").show();
                         $(this).fadeOut();
                     } else {
                         $(".setTitle").show();
+                        $(".searchTitle").hide();
                         $(this).fadeIn();
                     }
                 });
@@ -41,9 +43,10 @@
     <section class="main-content">
 
         <input id="search__filter" type="text" placeholder="quick search">
+        <h1 class="searchTitle">results</h1>
 
-        <h1 class="setTitle">application</h1>
         <section class="setGroup">
+            <h1 class="setTitle">application</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-accessibility"></span>
@@ -1290,10 +1293,8 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="users" class="liga unitRight" />
                 </div>
             </div>
-        </section>
 
-        <h1 class="setTitle">stuff</h1>
-        <section class="setGroup">
+            <h1 class="setTitle">stuff</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-bolt"></span>
@@ -1798,10 +1799,8 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="umbrella" class="liga unitRight" />
                 </div>
             </div>
-        </section>
 
-        <h1 class="setTitle">player</h1>
-        <section class="setGroup">
+            <h1 class="setTitle">player</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-maximize"></span>
@@ -2082,10 +2081,8 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="volume-off" class="liga unitRight" />
                 </div>
             </div>
-        </section>
 
-        <h1 class="setTitle">genders</h1>
-        <section class="setGroup">
+            <h1 class="setTitle">genders</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-genderless"></span>
@@ -2254,10 +2251,8 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="transgender" class="liga unitRight" />
                 </div>
             </div>
-        </section>
 
-        <h1 class="setTitle">brands</h1>
-        <section class="setGroup">
+            <h1 class="setTitle">brands</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-apple"></span>
@@ -2538,10 +2533,8 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="youtube" class="liga unitRight" />
                 </div>
             </div>
-        </section>
 
-        <h1 class="setTitle">directionals</h1>
-        <section class="setGroup">
+            <h1 class="setTitle">directionals</h1>
             <div class="glyph">
                 <div class="label">
                     <span class="li-3x li-angle-top"></span>
@@ -2991,7 +2984,6 @@
                 </div>
             </div>
         </section>
-
     </section>
 
     <!--[if gt IE 8]><!-->
@@ -3009,7 +3001,7 @@
     <!--<![endif]-->
 
     <footer>
-        <iframe style="width: 42px; height: 42px; border: none; margin: 0 auto;" src="http://by.janklever.com.br"></iframe></iframe>
+        <iframe src="http://by.janklever.com.br"></iframe>
         <br><br>
         <span class="site-footer-owner"><a href="https://github.com/janklever/licons" target="_blank">licons</a> is maintained by <a href="https://github.com/janklever">janklever</a>.</span>
         <br>
