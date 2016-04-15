@@ -312,7 +312,7 @@ a:hover {
 }
 
 footer {
-    padding-top: 2rem;
+    padding: 2rem 0;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
     text-align: center;
@@ -320,6 +320,13 @@ footer {
     overflow: hidden;
     width: 100%;
     height: auto;
+}
+
+footer iframe {
+    width: 42px;
+    height: 42px;
+    border: none;
+    margin: 0 auto;
 }
 
 .site-footer-owner {
@@ -551,6 +558,14 @@ input:focus {
 .exIcons i {
     margin: 0 1.2em;
 }
+.searchTitle {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1em;
+    color: #666 !important;
+    display: none;
+    margin-top: 0 !important;
+}
 .setTitle {
     width: 100%;
     overflow: hidden;
@@ -575,6 +590,7 @@ input:focus {
     margin-left: 15px;
     line-height: 3rem;
     vertical-align: top;
+    color: #666;
 }
 .glyph fieldset input {
     width: 49%;
@@ -584,6 +600,7 @@ input:focus {
 }
 .glyph .ligature span {
     width: 20%;
+    color: #666;
 }
 .liga {
     width: 80%;
