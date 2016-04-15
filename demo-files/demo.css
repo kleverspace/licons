@@ -136,6 +136,10 @@ a:hover {
     .project-tagline {
         font-size: 1rem; } }
 
+.main-content {
+    overflow: hidden;
+}
+
 .main-content :first-child {
     margin-top: 0;
 }
@@ -150,8 +154,7 @@ a:hover {
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin: 0;
     font-weight: normal;
     color: #ff3000;
 }
@@ -312,7 +315,7 @@ a:hover {
 }
 
 footer {
-    padding-top: 2rem;
+    padding: 2rem 0;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
     text-align: center;
@@ -553,12 +556,13 @@ input:focus {
 .setTitle {
     width: 100%;
     overflow: hidden;
-    padding-top: 1em;
+    padding-top: .8em;
     color: #666 !important;
 }
 .setGroup {
     margin-bottom: 2em;
     overflow: hidden;
+    display: inline;
 }
 .glyph {
     font-size: 16px;
@@ -604,9 +608,20 @@ input:focus {
 #search__filter {
     padding: 10px 36px;
     border-radius: 32px;
-    font-size: 2em;
-    width: 50%;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 100%;
     color: #666;
     margin-top: 30px;
     text-align: center;
+    background-color: white;
+    border: 2px solid #ddd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#search__filter:hover {
+    border-color: #fbde4a;
+}
+#search__filter:focus {
+    border-color: #ff3000;
 }

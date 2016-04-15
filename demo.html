@@ -20,7 +20,8 @@
                 var txt = $(this).val();
                 $('.glyph').each(function(){
                     var result = ('LI-' + $(this).find('.ligature input').val().toUpperCase()).indexOf(txt.toUpperCase());
-                    if(result < 0) {
+                    if (result < 0) {
+                        //$(".setTitle").fadeOut();
                         $(this).fadeOut();
                     } else {
                         $(this).fadeIn();
@@ -34,11 +35,11 @@
     <section class="page-header">
         <h1 class="project-name">licons</h1>
         <h2 class="project-tagline">line style icons [for web]</h2>
-
-        <input id="search__filter" type="text" placeholder="quick search">
     </section>
 
     <section class="main-content">
+
+        <input id="search__filter" type="text" placeholder="quick search">
 
         <h1 class="setTitle">application</h1>
         <section class="setGroup">
@@ -52,7 +53,6 @@
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" maxlength="1" readonly value="&#xe901;" class="align-right" />
                 </fieldset>
                 <div class="ligature">
-                    <p class="nothing">accessibility</p>
                     <span>liga: </span>
                     <input type="text" onClick="this.setSelectionRange(0, this.value.length)" readonly value="accessibility" class="liga unitRight" />
                 </div>
