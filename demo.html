@@ -21,9 +21,10 @@
                 $('.glyph').each(function(){
                     var result = ('LI-' + $(this).find('.ligature input').val().toUpperCase()).indexOf(txt.toUpperCase());
                     if (result < 0) {
-                        //$(".setTitle").fadeOut();
+                        $(".setTitle").hide();
                         $(this).fadeOut();
                     } else {
+                        $(".setTitle").show();
                         $(this).fadeIn();
                     }
                 });
