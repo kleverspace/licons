@@ -19,7 +19,7 @@
             $("#search__filter").keyup(function(){
                 var txt = $(this).val();
                 $('.glyph').each(function(){
-                    var result = $(this).text().toUpperCase().indexOf(' '+txt.toUpperCase());
+                    var result = ('LI-' + $(this).find('.ligature input').val().toUpperCase()).indexOf(txt.toUpperCase());
                     if(result < 0) {
                         $(this).fadeOut();
                     } else {
