@@ -590,3 +590,31 @@ input:focus {
     text-align: right;
     float: right;
 }
+.nothing {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+#search__filter {
+    padding: 10px 36px;
+    border-radius: 32px;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 100%;
+    color: #666;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ddd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#search__filter:hover {
+    border-color: #fbde4a;
+}
+#search__filter:focus {
+    border-color: #ff3000;
+}
