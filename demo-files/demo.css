@@ -325,6 +325,13 @@ footer {
     height: auto;
 }
 
+footer iframe {
+    width: 42px;
+    height: 42px;
+    border: none;
+    margin: 0 auto;
+}
+
 .site-footer-owner {
     display: block;
     font-weight: bold;
@@ -552,6 +559,13 @@ input:focus {
 }
 .exIcons i {
     margin: 0 1.2em;
+}
+.searchTitle {
+    width: 100%;
+    overflow: hidden;
+    padding-top: .8em;
+    color: #666 !important;
+    display: none;
 }
 .setTitle {
     width: 100%;
