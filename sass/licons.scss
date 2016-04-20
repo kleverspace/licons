@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'licons';
-    src:    url('#{$icomoon-font-path}/licons.eot?v=1.1');
-    src:    url('#{$icomoon-font-path}/licons.eot?v=1.1#iefix') format('embedded-opentype'),
-        url('#{$icomoon-font-path}/licons.ttf?v=1.1') format('truetype'),
-        url('#{$icomoon-font-path}/licons.woff?v=1.1') format('woff'),
-        url('#{$icomoon-font-path}/licons.woff2?v=1.1') format('woff2'),
-        url('#{$icomoon-font-path}/licons.svg?v=1.1#licons') format('svg');
+    src:    url('fonts/licons.eot?v=1.1.1');
+    src:    url('fonts/licons.eot?v=1.1.1#iefix') format('embedded-opentype'),
+        url('fonts/licons.ttf?v=1.1.1') format('truetype'),
+        url('fonts/licons.woff?v=1.1.1') format('woff'),
+        url('fonts/licons.woff2?v=1.1.1') format('woff2'),
+        url('fonts/licons.svg?v=1.1.1#licons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,631 +49,631 @@
 
     // CHARACTERS
     &-accessibility {
-        &:before { content: @li-accessibility; }
+        &:before { content: $li-accessibility; }
     }
     &-ampersand {
-        &:before { content: @li-ampersand; }
+        &:before { content: $li-ampersand; }
     }
     &-anchor {
-        &:before { content: @li-anchor; }
+        &:before { content: $li-anchor; }
     }
     &-archive {
-        &:before { content: @li-archive; }
+        &:before { content: $li-archive; }
     }
     &-asterisk {
-        &:before { content: @li-asterisk; }
+        &:before { content: $li-asterisk; }
     }
     &-at {
-        &:before { content: @li-at; }
+        &:before { content: $li-at; }
     }
     &-balloons {
-        &:before { content: @li-balloons; }
+        &:before { content: $li-balloons; }
     }
     &-birthday-cake {
-        &:before { content: @li-birthday-cake; }
+        &:before { content: $li-birthday-cake; }
     }
     &-gift {
-        &:before { content: @li-gift; }
+        &:before { content: $li-gift; }
     }
     &-turn-off {
-        &:before { content: @li-turn-off; }
+        &:before { content: $li-turn-off; }
     }
     &-ban {
-        &:before { content: @li-ban; }
+        &:before { content: $li-ban; }
     }
     &-warning {
-        &:before { content: @li-warning; }
+        &:before { content: $li-warning; }
     }
     &-bell {
-        &:before { content: @li-bell; }
+        &:before { content: $li-bell; }
     }
     &-bullhorn {
-        &:before { content: @li-bullhorn; }
+        &:before { content: $li-bullhorn; }
     }
     &-calendar {
-        &:before { content: @li-calendar; }
+        &:before { content: $li-calendar; }
     }
     &-certificate {
-        &:before { content: @li-certificate; }
+        &:before { content: $li-certificate; }
     }
     &-clock {
-        &:before { content: @li-clock; }
+        &:before { content: $li-clock; }
     }
     &-chat {
-        &:before { content: @li-chat; }
+        &:before { content: $li-chat; }
     }
     &-comment {
-        &:before { content: @li-comment; }
+        &:before { content: $li-comment; }
     }
     &-copyright {
-        &:before { content: @li-copyright; }
+        &:before { content: $li-copyright; }
     }
     &-registered {
-        &:before { content: @li-registered; }
+        &:before { content: $li-registered; }
     }
     &-trademark {
-        &:before { content: @li-trademark; }
+        &:before { content: $li-trademark; }
     }
     &-delivery {
-        &:before { content: @li-delivery; }
+        &:before { content: $li-delivery; }
     }
     &-dots-h {
-        &:before { content: @li-dots-h; }
+        &:before { content: $li-dots-h; }
     }
     &-dots-v {
-        &:before { content: @li-dots-v; }
+        &:before { content: $li-dots-v; }
     }
     &-download {
-        &:before { content: @li-download; }
+        &:before { content: $li-download; }
     }
     &-envelope {
-        &:before { content: @li-envelope; }
+        &:before { content: $li-envelope; }
     }
     &-exclamation {
-        &:before { content: @li-exclamation; }
+        &:before { content: $li-exclamation; }
     }
     &-question {
-        &:before { content: @li-question; }
+        &:before { content: $li-question; }
     }
     &-eye {
-        &:before { content: @li-eye; }
+        &:before { content: $li-eye; }
     }
     &-eye-slash {
-        &:before { content: @li-eye-slash; }
+        &:before { content: $li-eye-slash; }
     }
     &-filter {
-        &:before { content: @li-filter; }
+        &:before { content: $li-filter; }
     }
     &-flag {
-        &:before { content: @li-flag; }
+        &:before { content: $li-flag; }
     }
     &-graduation-cap {
-        &:before { content: @li-graduation-cap; }
+        &:before { content: $li-graduation-cap; }
     }
     &-hashtag {
-        &:before { content: @li-hashtag; }
+        &:before { content: $li-hashtag; }
     }
     &-heart {
-        &:before { content: @li-heart; }
+        &:before { content: $li-heart; }
     }
     &-home {
-        &:before { content: @li-home; }
+        &:before { content: $li-home; }
     }
     &-hourglass {
-        &:before { content: @li-hourglass; }
+        &:before { content: $li-hourglass; }
     }
     &-infinity {
-        &:before { content: @li-infinity; }
+        &:before { content: $li-infinity; }
     }
     &-info {
-        &:before { content: @li-info; }
+        &:before { content: $li-info; }
     }
     &-laptop {
-        &:before { content: @li-laptop; }
+        &:before { content: $li-laptop; }
     }
     &-leaf {
-        &:before { content: @li-leaf; }
+        &:before { content: $li-leaf; }
     }
     &-link {
-        &:before { content: @li-link; }
+        &:before { content: $li-link; }
     }
     &-lock {
-        &:before { content: @li-lock; }
+        &:before { content: $li-lock; }
     }
     &-unlock {
-        &:before { content: @li-unlock; }
+        &:before { content: $li-unlock; }
     }
     &-unlock-alt {
-        &:before { content: @li-unlock-alt; }
+        &:before { content: $li-unlock-alt; }
     }
     &-magnet {
-        &:before { content: @li-magnet; }
+        &:before { content: $li-magnet; }
     }
     &-magnet-alt {
-        &:before { content: @li-magnet-alt; }
+        &:before { content: $li-magnet-alt; }
     }
     &-map-marker {
-        &:before { content: @li-map-marker; }
+        &:before { content: $li-map-marker; }
     }
     &-menu {
-        &:before { content: @li-menu; }
+        &:before { content: $li-menu; }
     }
     &-minus {
-        &:before { content: @li-minus; }
+        &:before { content: $li-minus; }
     }
     &-plus {
-        &:before { content: @li-plus; }
+        &:before { content: $li-plus; }
     }
     &-more-or-less {
-        &:before { content: @li-more-or-less; }
+        &:before { content: $li-more-or-less; }
     }
     &-check {
-        &:before { content: @li-check; }
+        &:before { content: $li-check; }
     }
     &-close {
-        &:before { content: @li-close; }
+        &:before { content: $li-close; }
     }
     &-divide {
-        &:before { content: @li-divide; }
+        &:before { content: $li-divide; }
     }
     &-dollar {
-        &:before { content: @li-dollar; }
+        &:before { content: $li-dollar; }
     }
     &-percent {
-        &:before { content: @li-percent; }
+        &:before { content: $li-percent; }
     }
     &-permille {
-        &:before { content: @li-permille; }
+        &:before { content: $li-permille; }
     }
     &-music {
-        &:before { content: @li-music; }
+        &:before { content: $li-music; }
     }
     &-music-alt {
-        &:before { content: @li-music-alt; }
+        &:before { content: $li-music-alt; }
     }
     &-headphones {
-        &:before { content: @li-headphones; }
+        &:before { content: $li-headphones; }
     }
     &-note {
-        &:before { content: @li-note; }
+        &:before { content: $li-note; }
     }
     &-options {
-        &:before { content: @li-options; }
+        &:before { content: $li-options; }
     }
     &-paper {
-        &:before { content: @li-paper; }
+        &:before { content: $li-paper; }
     }
     &-printer {
-        &:before { content: @li-printer; }
+        &:before { content: $li-printer; }
     }
     &-paper-plane {
-        &:before { content: @li-paper-plane; }
+        &:before { content: $li-paper-plane; }
     }
     &-paperclip {
-        &:before { content: @li-paperclip; }
+        &:before { content: $li-paperclip; }
     }
     &-pencil {
-        &:before { content: @li-pencil; }
+        &:before { content: $li-pencil; }
     }
     &-phone {
-        &:before { content: @li-phone; }
+        &:before { content: $li-phone; }
     }
     &-mobile {
-        &:before { content: @li-mobile; }
+        &:before { content: $li-mobile; }
     }
     &-quote-left {
-        &:before { content: @li-quote-left; }
+        &:before { content: $li-quote-left; }
     }
     &-quote-right {
-        &:before { content: @li-quote-right; }
+        &:before { content: $li-quote-right; }
     }
     &-quotes {
-        &:before { content: @li-quotes; }
+        &:before { content: $li-quotes; }
     }
     &-rss {
-        &:before { content: @li-rss; }
+        &:before { content: $li-rss; }
     }
     &-search {
-        &:before { content: @li-search; }
+        &:before { content: $li-search; }
     }
     &-settings {
-        &:before { content: @li-settings; }
+        &:before { content: $li-settings; }
     }
     &-share {
-        &:before { content: @li-share; }
+        &:before { content: $li-share; }
     }
     &-signal {
-        &:before { content: @li-signal; }
+        &:before { content: $li-signal; }
     }
     &-wireless {
-        &:before { content: @li-wireless; }
+        &:before { content: $li-wireless; }
     }
     &-star {
-        &:before { content: @li-star; }
+        &:before { content: $li-star; }
     }
     &-tag {
-        &:before { content: @li-tag; }
+        &:before { content: $li-tag; }
     }
     &-thumbs-up {
-        &:before { content: @li-thumbs-up; }
+        &:before { content: $li-thumbs-up; }
     }
     &-thumbs-down {
-        &:before { content: @li-thumbs-down; }
+        &:before { content: $li-thumbs-down; }
     }
     &-trash {
-        &:before { content: @li-trash; }
+        &:before { content: $li-trash; }
     }
     &-trophy {
-        &:before { content: @li-trophy; }
+        &:before { content: $li-trophy; }
     }
     &-university {
-        &:before { content: @li-university; }
+        &:before { content: $li-university; }
     }
     &-user {
-        &:before { content: @li-user; }
+        &:before { content: $li-user; }
     }
     &-users {
-        &:before { content: @li-users; }
+        &:before { content: $li-users; }
     }
     &-bolt {
-        &:before { content: @li-bolt; }
+        &:before { content: $li-bolt; }
     }
     &-flash {
-        &:before { content: @li-flash; }
+        &:before { content: $li-flash; }
     }
     &-camera {
-        &:before { content: @li-camera; }
+        &:before { content: $li-camera; }
     }
     &-fruit-apple {
-        &:before { content: @li-fruit-apple; }
+        &:before { content: $li-fruit-apple; }
     }
     &-book {
-        &:before { content: @li-book; }
+        &:before { content: $li-book; }
     }
     &-bookmaker {
-        &:before { content: @li-bookmaker; }
+        &:before { content: $li-bookmaker; }
     }
     &-briefcase {
-        &:before { content: @li-briefcase; }
+        &:before { content: $li-briefcase; }
     }
     &-coffee {
-        &:before { content: @li-coffee; }
+        &:before { content: $li-coffee; }
     }
     &-compact-disc {
-        &:before { content: @li-compact-disc; }
+        &:before { content: $li-compact-disc; }
     }
     &-drop {
-        &:before { content: @li-drop; }
+        &:before { content: $li-drop; }
     }
     &-drugs {
-        &:before { content: @li-drugs; }
+        &:before { content: $li-drugs; }
     }
     &-float {
-        &:before { content: @li-float; }
+        &:before { content: $li-float; }
     }
     &-glass {
-        &:before { content: @li-glass; }
+        &:before { content: $li-glass; }
     }
     &-glasses {
-        &:before { content: @li-glasses; }
+        &:before { content: $li-glasses; }
     }
     &-balance {
-        &:before { content: @li-balance; }
+        &:before { content: $li-balance; }
     }
     &-hourglass2 {
-        &:before { content: @li-hourglass2; }
+        &:before { content: $li-hourglass2; }
     }
     &-atom {
-        &:before { content: @li-atom; }
+        &:before { content: $li-atom; }
     }
     &-kitasato {
-        &:before { content: @li-kitasato; }
+        &:before { content: $li-kitasato; }
     }
     &-test-tube {
-        &:before { content: @li-test-tube; }
+        &:before { content: $li-test-tube; }
     }
     &-light {
-        &:before { content: @li-light; }
+        &:before { content: $li-light; }
     }
     &-pie-chart {
-        &:before { content: @li-pie-chart; }
+        &:before { content: $li-pie-chart; }
     }
     &-line-chart {
-        &:before { content: @li-line-chart; }
+        &:before { content: $li-line-chart; }
     }
     &-cloud {
-        &:before { content: @li-cloud; }
+        &:before { content: $li-cloud; }
     }
     &-sun {
-        &:before { content: @li-sun; }
+        &:before { content: $li-sun; }
     }
     &-moon {
-        &:before { content: @li-moon; }
+        &:before { content: $li-moon; }
     }
     &-planet {
-        &:before { content: @li-planet; }
+        &:before { content: $li-planet; }
     }
     &-mouse {
-        &:before { content: @li-mouse; }
+        &:before { content: $li-mouse; }
     }
     &-map {
-        &:before { content: @li-map; }
+        &:before { content: $li-map; }
     }
     &-picture {
-        &:before { content: @li-picture; }
+        &:before { content: $li-picture; }
     }
     &-bike {
-        &:before { content: @li-bike; }
+        &:before { content: $li-bike; }
     }
     &-pin {
-        &:before { content: @li-pin; }
+        &:before { content: $li-pin; }
     }
     &-pin-alt {
-        &:before { content: @li-pin-alt; }
+        &:before { content: $li-pin-alt; }
     }
     &-shield {
-        &:before { content: @li-shield; }
+        &:before { content: $li-shield; }
     }
     &-skull {
-        &:before { content: @li-skull; }
+        &:before { content: $li-skull; }
     }
     &-target {
-        &:before { content: @li-target; }
+        &:before { content: $li-target; }
     }
     &-umbrella {
-        &:before { content: @li-umbrella; }
+        &:before { content: $li-umbrella; }
     }
     &-maximize {
-        &:before { content: @li-maximize; }
+        &:before { content: $li-maximize; }
     }
     &-minimize {
-        &:before { content: @li-minimize; }
+        &:before { content: $li-minimize; }
     }
     &-play {
-        &:before { content: @li-play; }
+        &:before { content: $li-play; }
     }
     &-pause {
-        &:before { content: @li-pause; }
+        &:before { content: $li-pause; }
     }
     &-rec {
-        &:before { content: @li-rec; }
+        &:before { content: $li-rec; }
     }
     &-stop {
-        &:before { content: @li-stop; }
+        &:before { content: $li-stop; }
     }
     &-backward {
-        &:before { content: @li-backward; }
+        &:before { content: $li-backward; }
     }
     &-forward {
-        &:before { content: @li-forward; }
+        &:before { content: $li-forward; }
     }
     &-fast-backward {
-        &:before { content: @li-fast-backward; }
+        &:before { content: $li-fast-backward; }
     }
     &-fast-forward {
-        &:before { content: @li-fast-forward; }
+        &:before { content: $li-fast-forward; }
     }
     &-left {
-        &:before { content: @li-left; }
+        &:before { content: $li-left; }
     }
     &-right {
-        &:before { content: @li-right; }
+        &:before { content: $li-right; }
     }
     &-step-left {
-        &:before { content: @li-step-left; }
+        &:before { content: $li-step-left; }
     }
     &-step-right {
-        &:before { content: @li-step-right; }
+        &:before { content: $li-step-right; }
     }
     &-microphone {
-        &:before { content: @li-microphone; }
+        &:before { content: $li-microphone; }
     }
     &-video-camera {
-        &:before { content: @li-video-camera; }
+        &:before { content: $li-video-camera; }
     }
     &-volume {
-        &:before { content: @li-volume; }
+        &:before { content: $li-volume; }
     }
     &-volume-down {
-        &:before { content: @li-volume-down; }
+        &:before { content: $li-volume-down; }
     }
     &-volume-up {
-        &:before { content: @li-volume-up; }
+        &:before { content: $li-volume-up; }
     }
     &-volume-off {
-        &:before { content: @li-volume-off; }
+        &:before { content: $li-volume-off; }
     }
     &-genderless {
-        &:before { content: @li-genderless; }
+        &:before { content: $li-genderless; }
     }
     &-neuter {
-        &:before { content: @li-neuter; }
+        &:before { content: $li-neuter; }
     }
     &-female {
-        &:before { content: @li-female; }
+        &:before { content: $li-female; }
     }
     &-male {
-        &:before { content: @li-male; }
+        &:before { content: $li-male; }
     }
     &-venus-double {
-        &:before { content: @li-venus-double; }
+        &:before { content: $li-venus-double; }
     }
     &-mars-double {
-        &:before { content: @li-mars-double; }
+        &:before { content: $li-mars-double; }
     }
     &-venus-mars {
-        &:before { content: @li-venus-mars; }
+        &:before { content: $li-venus-mars; }
     }
     &-intersex {
-        &:before { content: @li-intersex; }
+        &:before { content: $li-intersex; }
     }
     &-mars-stroke-h {
-        &:before { content: @li-mars-stroke-h; }
+        &:before { content: $li-mars-stroke-h; }
     }
     &-mars-stroke-v {
-        &:before { content: @li-mars-stroke-v; }
+        &:before { content: $li-mars-stroke-v; }
     }
     &-mercury {
-        &:before { content: @li-mercury; }
+        &:before { content: $li-mercury; }
     }
     &-transgender {
-        &:before { content: @li-transgender; }
+        &:before { content: $li-transgender; }
     }
     &-apple {
-        &:before { content: @li-apple; }
+        &:before { content: $li-apple; }
     }
     &-behance {
-        &:before { content: @li-behance; }
+        &:before { content: $li-behance; }
     }
     &-blogger {
-        &:before { content: @li-blogger; }
+        &:before { content: $li-blogger; }
     }
     &-codepen {
-        &:before { content: @li-codepen; }
+        &:before { content: $li-codepen; }
     }
     &-facebook {
-        &:before { content: @li-facebook; }
+        &:before { content: $li-facebook; }
     }
     &-flickr {
-        &:before { content: @li-flickr; }
+        &:before { content: $li-flickr; }
     }
     &-foursquare {
-        &:before { content: @li-foursquare; }
+        &:before { content: $li-foursquare; }
     }
     &-instagram {
-        &:before { content: @li-instagram; }
+        &:before { content: $li-instagram; }
     }
     &-linkedin {
-        &:before { content: @li-linkedin; }
+        &:before { content: $li-linkedin; }
     }
     &-medium {
-        &:before { content: @li-medium; }
+        &:before { content: $li-medium; }
     }
     &-pinterest {
-        &:before { content: @li-pinterest; }
+        &:before { content: $li-pinterest; }
     }
     &-skype {
-        &:before { content: @li-skype; }
+        &:before { content: $li-skype; }
     }
     &-slack {
-        &:before { content: @li-slack; }
+        &:before { content: $li-slack; }
     }
     &-spotify {
-        &:before { content: @li-spotify; }
+        &:before { content: $li-spotify; }
     }
     &-twitter {
-        &:before { content: @li-twitter; }
+        &:before { content: $li-twitter; }
     }
     &-vimeo {
-        &:before { content: @li-vimeo; }
+        &:before { content: $li-vimeo; }
     }
     &-wikipedia {
-        &:before { content: @li-wikipedia; }
+        &:before { content: $li-wikipedia; }
     }
     &-windows {
-        &:before { content: @li-windows; }
+        &:before { content: $li-windows; }
     }
     &-wordpress {
-        &:before { content: @li-wordpress; }
+        &:before { content: $li-wordpress; }
     }
     &-youtube {
-        &:before { content: @li-youtube; }
+        &:before { content: $li-youtube; }
     }
     &-angle-top {
-        &:before { content: @li-angle-top; }
+        &:before { content: $li-angle-top; }
     }
     &-angle-down {
-        &:before { content: @li-angle-down; }
+        &:before { content: $li-angle-down; }
     }
     &-angle-left {
-        &:before { content: @li-angle-left; }
+        &:before { content: $li-angle-left; }
     }
     &-angle-right {
-        &:before { content: @li-angle-right; }
+        &:before { content: $li-angle-right; }
     }
     &-angle-double-top {
-        &:before { content: @li-angle-double-top; }
+        &:before { content: $li-angle-double-top; }
     }
     &-angle-double-down {
-        &:before { content: @li-angle-double-down; }
+        &:before { content: $li-angle-double-down; }
     }
     &-angle-double-left {
-        &:before { content: @li-angle-double-left; }
+        &:before { content: $li-angle-double-left; }
     }
     &-angle-double-right {
-        &:before { content: @li-angle-double-right; }
+        &:before { content: $li-angle-double-right; }
     }
     &-arrow-top {
-        &:before { content: @li-arrow-top; }
+        &:before { content: $li-arrow-top; }
     }
     &-arrow-top-right {
-        &:before { content: @li-arrow-top-right; }
+        &:before { content: $li-arrow-top-right; }
     }
     &-arrow-right {
-        &:before { content: @li-arrow-right; }
+        &:before { content: $li-arrow-right; }
     }
     &-arrow-down-right {
-        &:before { content: @li-arrow-down-right; }
+        &:before { content: $li-arrow-down-right; }
     }
     &-arrow-down {
-        &:before { content: @li-arrow-down; }
+        &:before { content: $li-arrow-down; }
     }
     &-arrow-down-left {
-        &:before { content: @li-arrow-down-left; }
+        &:before { content: $li-arrow-down-left; }
     }
     &-arrow-left {
-        &:before { content: @li-arrow-left; }
+        &:before { content: $li-arrow-left; }
     }
     &-arrow-top-left {
-        &:before { content: @li-arrow-top-left; }
+        &:before { content: $li-arrow-top-left; }
     }
     &-arrows {
-        &:before { content: @li-arrows; }
+        &:before { content: $li-arrows; }
     }
     &-arrows-alt {
-        &:before { content: @li-arrows-alt; }
+        &:before { content: $li-arrows-alt; }
     }
     &-arrows-oblique {
-        &:before { content: @li-arrows-oblique; }
+        &:before { content: $li-arrows-oblique; }
     }
     &-arrows-oblique-alt {
-        &:before { content: @li-arrows-oblique-alt; }
+        &:before { content: $li-arrows-oblique-alt; }
     }
     &-arrows-h {
-        &:before { content: @li-arrows-h; }
+        &:before { content: $li-arrows-h; }
     }
     &-arrows-v {
-        &:before { content: @li-arrows-v; }
+        &:before { content: $li-arrows-v; }
     }
     &-slide-h {
-        &:before { content: @li-slide-h; }
+        &:before { content: $li-slide-h; }
     }
     &-slide-v {
-        &:before { content: @li-slide-v; }
+        &:before { content: $li-slide-v; }
     }
     &-caret-top {
-        &:before { content: @li-caret-top; }
+        &:before { content: $li-caret-top; }
     }
     &-caret-down {
-        &:before { content: @li-caret-down; }
+        &:before { content: $li-caret-down; }
     }
     &-caret-left {
-        &:before { content: @li-caret-left; }
+        &:before { content: $li-caret-left; }
     }
     &-caret-right {
-        &:before { content: @li-caret-right; }
+        &:before { content: $li-caret-right; }
     }
     &-angles-alt {
-        &:before { content: @li-angles-alt; }
+        &:before { content: $li-angles-alt; }
     }
     &-angles {
-        &:before { content: @li-angles; }
+        &:before { content: $li-angles; }
     }
     &-loading {
-        &:before { content: @li-loading; }
+        &:before { content: $li-loading; }
     }
     &-restart {
-        &:before { content: @li-restart; }
+        &:before { content: $li-restart; }
     }
 }
 
