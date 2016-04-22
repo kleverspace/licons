@@ -12,7 +12,7 @@ Created and maintained by [Jan Klever](https://janklever.com.br).
 
 
 ## Portfolio project
-- https://www.behance.net/gallery/28730985/line-style-icons
+- https://www.behance.net/gallery/28730985/licons-icons
 
 ## License
 - Font License: [SIL OFL 1.1](http://scripts.sil.org/OFL)
