@@ -8,7 +8,7 @@ Created and maintained by [Jan Klever](https://janklever.com.br).
 
 ## Use, mapping and details
 
-- http://janklever.github.io/licons
+- https://janklever.github.io/licons
 
 
 ## Portfolio project
