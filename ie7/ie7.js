@@ -117,7 +117,6 @@
 		'li-glass': '&#xe95a;',
 		'li-glasses': '&#xe95b;',
 		'li-balance': '&#xe921;',
-		'li-hourglass2': '&#xe964;',
 		'li-atom': '&#xe91f;',
 		'li-kitasato': '&#xe966;',
 		'li-test-tube': '&#xe9b4;',

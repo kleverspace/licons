@@ -1,9 +1,14 @@
 <p align="center"><img src="http://licons.janklever.com.br/examples/licons.png"/></p>
 
-### line style icons [v1.1.1]
+### line style icons [v1.2]
 
-Licons is a set with 209 icons in line style created in 2014.
+Licons is a set with 208 icons in line style created in 2014.
 Created and maintained by [Jan Klever](https://janklever.com.br).
+
+
+## News
+
+- Instagram icon has been updated!
 
 
 ## Use, mapping and details

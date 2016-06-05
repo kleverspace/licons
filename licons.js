@@ -130,7 +130,6 @@
             'glass': '&#xe95a;',
             'glasses': '&#xe95b;',
             'balance': '&#xe921;',
-            'hourglass': '&#xe964;',
             'atom': '&#xe91f;',
             'kitasato': '&#xe966;',
             'test-tube': '&#xe9b4;',
