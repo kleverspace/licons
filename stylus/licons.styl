@@ -1,13 +1,13 @@
 /*!
- *  licons by Jan Klever - @janklever - http://janklever.github.io/licons
+ *  licons by Jan Klever - @janklever - http://kleverspace.github.io/licons/
  */
 
 @import "variables"
 
 @font-face
     font-family 'licons'
-    src url('/licons.eot?v=1.2')
-    src url('/licons.eot?v=1.2'#iefix') format('embedded-opentype'), url('/licons.ttf?v=1.2'') format('truetype'), url('/licons.woff?v=1.2'') format('woff'), url('/licons.woff2?v=1.2'') format('woff2'), url('/licons.svg?v=1.2'#licons') format('svg')
+    src url('../fonts/licons.eot?v=2.0')
+    src url('../fonts/licons.eot?v=2.0#iefix') format('embedded-opentype'), url('../fonts/licons.ttf?v=2.0') format('truetype'), url('../fonts/licons.woff?v=2.0') format('woff'), url('../fonts/licons.woff2?v=2.0') format('woff2'), url('../fonts/licons.svg?v=2.0#licons') format('svg')
     font-weight normal
     font-style normal
 
@@ -26,8 +26,9 @@
     -moz-font-feature-settings "liga=1"
     -moz-font-feature-settings "liga"
     -ms-font-feature-settings "liga" 1
-    -o-font-feature-settings "liga"
     font-feature-settings "liga"
+    -webkit-font-variant-ligatures discretionary-ligatures;
+    font-variant-ligatures discretionary-ligatures;
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing antialiased
@@ -48,832 +49,733 @@
     &-accessibility
         &:before
             content li-accessibility
-
-    &-ampersand
+    &-accessibility-alt
         &:before
-            content li-ampersand
-
-    &-anchor
+            content li-accessibility-alt
+    &-deaf
         &:before
-            content li-anchor
-
-    &-archive
-        &:before
-            content li-archive
-
-    &-asterisk
-        &:before
-            content li-asterisk
-
-    &-at
-        &:before
-            content li-at
-
-    &-balloons
-        &:before
-            content li-balloons
-
-    &-birthday-cake
-        &:before
-            content li-birthday-cake
-
-    &-gift
-        &:before
-            content li-gift
-
-    &-turn-off
-        &:before
-            content li-turn-off
-
-    &-ban
-        &:before
-            content li-ban
-
-    &-warning
-        &:before
-            content li-warning
-
-    &-bell
-        &:before
-            content li-bell
-
+            content li-deaf
     &-bullhorn
         &:before
             content li-bullhorn
-
-    &-calendar
-        &:before
-            content li-calendar
-
     &-certificate
         &:before
             content li-certificate
-
-    &-clock
-        &:before
-            content li-clock
-
-    &-chat
-        &:before
-            content li-chat
-
-    &-comment
-        &:before
-            content li-comment
-
-    &-copyright
-        &:before
-            content li-copyright
-
-    &-registered
-        &:before
-            content li-registered
-
-    &-trademark
-        &:before
-            content li-trademark
-
-    &-delivery
-        &:before
-            content li-delivery
-
-    &-dots-h
-        &:before
-            content li-dots-h
-
-    &-dots-v
-        &:before
-            content li-dots-v
-
-    &-download
-        &:before
-            content li-download
-
-    &-envelope
-        &:before
-            content li-envelope
-
-    &-exclamation
-        &:before
-            content li-exclamation
-
-    &-question
-        &:before
-            content li-question
-
-    &-eye
-        &:before
-            content li-eye
-
-    &-eye-slash
-        &:before
-            content li-eye-slash
-
-    &-filter
-        &:before
-            content li-filter
-
-    &-flag
-        &:before
-            content li-flag
-
-    &-graduation-cap
-        &:before
-            content li-graduation-cap
-
-    &-hashtag
-        &:before
-            content li-hashtag
-
-    &-heart
-        &:before
-            content li-heart
-
-    &-home
-        &:before
-            content li-home
-
-    &-hourglass
-        &:before
-            content li-hourglass
-
-    &-infinity
-        &:before
-            content li-infinity
-
-    &-info
-        &:before
-            content li-info
-
-    &-laptop
-        &:before
-            content li-laptop
-
-    &-leaf
-        &:before
-            content li-leaf
-
-    &-link
-        &:before
-            content li-link
-
-    &-lock
-        &:before
-            content li-lock
-
-    &-unlock
-        &:before
-            content li-unlock
-
-    &-unlock-alt
-        &:before
-            content li-unlock-alt
-
-    &-magnet
-        &:before
-            content li-magnet
-
-    &-magnet-alt
-        &:before
-            content li-magnet-alt
-
-    &-map-marker
-        &:before
-            content li-map-marker
-
-    &-menu
-        &:before
-            content li-menu
-
-    &-minus
-        &:before
-            content li-minus
-
-    &-plus
-        &:before
-            content li-plus
-
-    &-more-or-less
-        &:before
-            content li-more-or-less
-
     &-check
         &:before
             content li-check
-
     &-close
         &:before
             content li-close
-
+    &-minus
+        &:before
+            content li-minus
+    &-plus
+        &:before
+            content li-plus
+    &-more-or-less
+        &:before
+            content li-more-or-less
     &-divide
         &:before
             content li-divide
-
-    &-dollar
-        &:before
-            content li-dollar
-
     &-percent
         &:before
             content li-percent
-
     &-permille
         &:before
             content li-permille
-
-    &-music
+    &-dollar
         &:before
-            content li-music
-
-    &-music-alt
+            content li-dollar
+    &-delivery
         &:before
-            content li-music-alt
-
-    &-headphones
+            content li-delivery
+    &-door-lock
         &:before
-            content li-headphones
-
-    &-note
+            content li-door-lock
+    &-door
         &:before
-            content li-note
-
-    &-options
+            content li-door
+    &-eye
         &:before
-            content li-options
-
+            content li-eye
+    &-eye-slash
+        &:before
+            content li-eye-slash
+    &-flag
+        &:before
+            content li-flag
+    &-folder
+        &:before
+            content li-folder
+    &-archive
+        &:before
+            content li-archive
     &-paper
         &:before
             content li-paper
-
-    &-printer
-        &:before
-            content li-printer
-
-    &-paper-plane
-        &:before
-            content li-paper-plane
-
     &-paperclip
         &:before
             content li-paperclip
-
+    &-download
+        &:before
+            content li-download
+    &-upload
+        &:before
+            content li-upload
+    &-note
+        &:before
+            content li-note
     &-pencil
         &:before
             content li-pencil
-
-    &-phone
-        &:before
-            content li-phone
-
-    &-mobile
-        &:before
-            content li-mobile
-
-    &-quote-left
-        &:before
-            content li-quote-left
-
-    &-quote-right
-        &:before
-            content li-quote-right
-
-    &-quotes
-        &:before
-            content li-quotes
-
-    &-rss
-        &:before
-            content li-rss
-
-    &-search
-        &:before
-            content li-search
-
-    &-settings
-        &:before
-            content li-settings
-
-    &-share
-        &:before
-            content li-share
-
-    &-signal
-        &:before
-            content li-signal
-
-    &-wireless
-        &:before
-            content li-wireless
-
-    &-star
-        &:before
-            content li-star
-
-    &-tag
-        &:before
-            content li-tag
-
-    &-thumbs-up
-        &:before
-            content li-thumbs-up
-
-    &-thumbs-down
-        &:before
-            content li-thumbs-down
-
     &-trash
         &:before
             content li-trash
-
-    &-trophy
+    &-printer
         &:before
-            content li-trophy
-
+            content li-printer
+    &-filter
+        &:before
+            content li-filter
+    &-balloons
+        &:before
+            content li-balloons
+    &-birthday-cake
+        &:before
+            content li-birthday-cake
+    &-gift
+        &:before
+            content li-gift
+    &-graduation-cap
+        &:before
+            content li-graduation-cap
     &-university
         &:before
             content li-university
-
+    &-trophy
+        &:before
+            content li-trophy
+    &-black-tie
+        &:before
+            content li-black-tie
+    &-hashtag
+        &:before
+            content li-hashtag
+    &-asterisk
+        &:before
+            content li-asterisk
+    &-ampersand
+        &:before
+            content li-ampersand
+    &-home
+        &:before
+            content li-home
+    &-menu
+        &:before
+            content li-menu
+    &-options
+        &:before
+            content li-options
+    &-dots-v
+        &:before
+            content li-dots-v
+    &-dots-h
+        &:before
+            content li-dots-h
+    &-calendar
+        &:before
+            content li-calendar
+    &-clock
+        &:before
+            content li-clock
+    &-bell
+        &:before
+            content li-bell
+    &-share
+        &:before
+            content li-share
+    &-comment
+        &:before
+            content li-comment
+    &-chat
+        &:before
+            content li-chat
+    &-search
+        &:before
+            content li-search
+    &-settings
+        &:before
+            content li-settings
+    &-hourglass
+        &:before
+            content li-hourglass
+    &-rss
+        &:before
+            content li-rss
+    &-infinity
+        &:before
+            content li-infinity
+    &-cursor
+        &:before
+            content li-cursor
+    &-laptop
+        &:before
+            content li-laptop
+    &-bug
+        &:before
+            content li-bug
+    &-leaf
+        &:before
+            content li-leaf
+    &-anchor
+        &:before
+            content li-anchor
+    &-link
+        &:before
+            content li-link
+    &-magnet
+        &:before
+            content li-magnet
+    &-magnet-alt
+        &:before
+            content li-magnet-alt
+    &-location-arrow
+        &:before
+            content li-location-arrow
+    &-map-marker
+        &:before
+            content li-map-marker
+    &-phone
+        &:before
+            content li-phone
+    &-mobile
+        &:before
+            content li-mobile
+    &-envelope
+        &:before
+            content li-envelope
+    &-at
+        &:before
+            content li-at
+    &-battery-full
+        &:before
+            content li-battery-full
+    &-battery-half
+        &:before
+            content li-battery-half
+    &-battery-empty
+        &:before
+            content li-battery-empty
+    &-music
+        &:before
+            content li-music
+    &-music-alt
+        &:before
+            content li-music-alt
+    &-headphones
+        &:before
+            content li-headphones
+    &-paper-plane
+        &:before
+            content li-paper-plane
+    &-plug
+        &:before
+            content li-plug
+    &-turn-off
+        &:before
+            content li-turn-off
+    &-question
+        &:before
+            content li-question
+    &-exclamation
+        &:before
+            content li-exclamation
+    &-quote-left
+        &:before
+            content li-quote-left
+    &-quote-right
+        &:before
+            content li-quote-right
+    &-quotes
+        &:before
+            content li-quotes
+    &-copyright
+        &:before
+            content li-copyright
+    &-registered
+        &:before
+            content li-registered
+    &-trademark
+        &:before
+            content li-trademark
+    &-tag
+        &:before
+            content li-tag
+    &-heart
+        &:before
+            content li-heart
+    &-heartbeat
+        &:before
+            content li-heartbeat
+    &-star
+        &:before
+            content li-star
+    &-star-half
+        &:before
+            content li-star-half
+    &-star-alt
+        &:before
+            content li-star-alt
+    &-thumbs-up
+        &:before
+            content li-thumbs-up
+    &-thumbs-down
+        &:before
+            content li-thumbs-down
+    &-ban
+        &:before
+            content li-ban
+    &-lock
+        &:before
+            content li-lock
+    &-unlock
+        &:before
+            content li-unlock
+    &-unlock-alt
+        &:before
+            content li-unlock-alt
     &-user
         &:before
             content li-user
-
+    &-user-alt
+        &:before
+            content li-user-alt
     &-users
         &:before
             content li-users
-
-    &-bolt
+    &-users-alt
         &:before
-            content li-bolt
-
-    &-flash
+            content li-users-alt
+    &-info
         &:before
-            content li-flash
-
-    &-camera
+            content li-info
+    &-warning
         &:before
-            content li-camera
-
-    &-fruit-apple
+            content li-warning
+    &-bluetooth
         &:before
-            content li-fruit-apple
-
-    &-book
+            content li-bluetooth
+    &-signal
         &:before
-            content li-book
-
-    &-bookmaker
+            content li-signal
+    &-wireless
         &:before
-            content li-bookmaker
-
-    &-briefcase
-        &:before
-            content li-briefcase
-
-    &-coffee
-        &:before
-            content li-coffee
-
-    &-compact-disc
-        &:before
-            content li-compact-disc
-
-    &-drop
-        &:before
-            content li-drop
-
-    &-drugs
-        &:before
-            content li-drugs
-
-    &-float
-        &:before
-            content li-float
-
-    &-glass
-        &:before
-            content li-glass
-
-    &-glasses
-        &:before
-            content li-glasses
-
-    &-balance
-        &:before
-            content li-balance
-
-    &-atom
-        &:before
-            content li-atom
-
-    &-kitasato
-        &:before
-            content li-kitasato
-
-    &-test-tube
-        &:before
-            content li-test-tube
-
-    &-light
-        &:before
-            content li-light
-
-    &-pie-chart
-        &:before
-            content li-pie-chart
-
-    &-line-chart
-        &:before
-            content li-line-chart
-
-    &-cloud
-        &:before
-            content li-cloud
-
-    &-sun
-        &:before
-            content li-sun
-
-    &-moon
-        &:before
-            content li-moon
-
-    &-planet
-        &:before
-            content li-planet
-
-    &-mouse
-        &:before
-            content li-mouse
-
-    &-map
-        &:before
-            content li-map
-
-    &-picture
-        &:before
-            content li-picture
-
+            content li-wireless
     &-bike
         &:before
             content li-bike
-
+    &-bus
+        &:before
+            content li-bus
+    &-car
+        &:before
+            content li-car
+    &-subway
+        &:before
+            content li-subway
+    &-train
+        &:before
+            content li-train
+    &-book
+        &:before
+            content li-book
+    &-bookmaker
+        &:before
+            content li-bookmaker
+    &-glasses
+        &:before
+            content li-glasses
+    &-key
+        &:before
+            content li-key
+    &-briefcase
+        &:before
+            content li-briefcase
+    &-suitcase
+        &:before
+            content li-suitcase
+    &-picture
+        &:before
+            content li-picture
+    &-camera
+        &:before
+            content li-camera
+    &-flash
+        &:before
+            content li-flash
+    &-coffee
+        &:before
+            content li-coffee
+    &-diamond
+        &:before
+            content li-diamond
+    &-float
+        &:before
+            content li-float
+    &-fruit-apple
+        &:before
+            content li-fruit-apple
+    &-glass
+        &:before
+            content li-glass
+    &-stethoscope
+        &:before
+            content li-stethoscope
+    &-atom
+        &:before
+            content li-atom
+    &-kitasato
+        &:before
+            content li-kitasato
+    &-test-tube
+        &:before
+            content li-test-tube
+    &-drop
+        &:before
+            content li-drop
+    &-drugs
+        &:before
+            content li-drugs
+    &-light
+        &:before
+            content li-light
+    &-balance
+        &:before
+            content li-balance
+    &-line-chart
+        &:before
+            content li-line-chart
+    &-pie-chart
+        &:before
+            content li-pie-chart
+    &-map
+        &:before
+            content li-map
+    &-mouse
+        &:before
+            content li-mouse
+    &-compact-disc
+        &:before
+            content li-compact-disc
     &-pin
         &:before
             content li-pin
-
     &-pin-alt
         &:before
             content li-pin-alt
-
-    &-shield
+    &-sun
         &:before
-            content li-shield
-
-    &-skull
+            content li-sun
+    &-moon
         &:before
-            content li-skull
-
-    &-target
+            content li-moon
+    &-cloud
         &:before
-            content li-target
-
+            content li-cloud
+    &-bolt
+        &:before
+            content li-bolt
     &-umbrella
         &:before
             content li-umbrella
-
-    &-maximize
+    &-planet
         &:before
-            content li-maximize
-
-    &-minimize
+            content li-planet
+    &-rocket
         &:before
-            content li-minimize
-
+            content li-rocket
+    &-shield
+        &:before
+            content li-shield
+    &-skull
+        &:before
+            content li-skull
+    &-target
+        &:before
+            content li-target
     &-play
         &:before
             content li-play
-
     &-pause
         &:before
             content li-pause
-
-    &-rec
-        &:before
-            content li-rec
-
     &-stop
         &:before
             content li-stop
-
-    &-backward
+    &-rec
         &:before
-            content li-backward
-
-    &-forward
-        &:before
-            content li-forward
-
+            content li-rec
     &-fast-backward
         &:before
             content li-fast-backward
-
     &-fast-forward
         &:before
             content li-fast-forward
-
-    &-left
+    &-backward
         &:before
-            content li-left
-
-    &-right
+            content li-backward
+    &-forward
         &:before
-            content li-right
-
+            content li-forward
     &-step-left
         &:before
             content li-step-left
-
     &-step-right
         &:before
             content li-step-right
-
-    &-microphone
+    &-left
         &:before
-            content li-microphone
-
+            content li-left
+    &-right
+        &:before
+            content li-right
     &-video-camera
         &:before
             content li-video-camera
-
-    &-volume
+    &-microphone
         &:before
-            content li-volume
-
-    &-volume-down
-        &:before
-            content li-volume-down
-
+            content li-microphone
     &-volume-up
         &:before
             content li-volume-up
-
+    &-volume-down
+        &:before
+            content li-volume-down
+    &-volume
+        &:before
+            content li-volume
     &-volume-off
         &:before
             content li-volume-off
-
-    &-genderless
+    &-maximize
         &:before
-            content li-genderless
-
-    &-neuter
+            content li-maximize
+    &-minimize
         &:before
-            content li-neuter
-
+            content li-minimize
     &-female
         &:before
             content li-female
-
     &-male
         &:before
             content li-male
-
-    &-venus-double
-        &:before
-            content li-venus-double
-
     &-mars-double
         &:before
             content li-mars-double
-
-    &-venus-mars
+    &-venus-double
         &:before
-            content li-venus-mars
-
+            content li-venus-double
     &-intersex
         &:before
             content li-intersex
-
+    &-venus-mars
+        &:before
+            content li-venus-mars
     &-mars-stroke-h
         &:before
             content li-mars-stroke-h
-
     &-mars-stroke-v
         &:before
             content li-mars-stroke-v
-
-    &-mercury
-        &:before
-            content li-mercury
-
     &-transgender
         &:before
             content li-transgender
-
+    &-mercury
+        &:before
+            content li-mercury
+    &-neuter
+        &:before
+            content li-neuter
+    &-genderless
+        &:before
+            content li-genderless
     &-apple
         &:before
             content li-apple
-
-    &-behance
+    &-google
         &:before
-            content li-behance
-
-    &-blogger
-        &:before
-            content li-blogger
-
-    &-codepen
-        &:before
-            content li-codepen
-
-    &-facebook
-        &:before
-            content li-facebook
-
-    &-flickr
-        &:before
-            content li-flickr
-
-    &-foursquare
-        &:before
-            content li-foursquare
-
-    &-instagram
-        &:before
-            content li-instagram
-
-    &-linkedin
-        &:before
-            content li-linkedin
-
-    &-medium
-        &:before
-            content li-medium
-
-    &-pinterest
-        &:before
-            content li-pinterest
-
-    &-skype
-        &:before
-            content li-skype
-
-    &-slack
-        &:before
-            content li-slack
-
-    &-spotify
-        &:before
-            content li-spotify
-
-    &-twitter
-        &:before
-            content li-twitter
-
-    &-vimeo
-        &:before
-            content li-vimeo
-
-    &-wikipedia
-        &:before
-            content li-wikipedia
-
+            content li-google
     &-windows
         &:before
             content li-windows
-
+    &-codepen
+        &:before
+            content li-codepen
+    &-behance
+        &:before
+            content li-behance
+    &-dribbble
+        &:before
+            content li-dribbble
+    &-flickr
+        &:before
+            content li-flickr
+    &-instagram
+        &:before
+            content li-instagram
+    &-linkedin
+        &:before
+            content li-linkedin
+    &-medium
+        &:before
+            content li-medium
+    &-blogger
+        &:before
+            content li-blogger
     &-wordpress
         &:before
             content li-wordpress
-
+    &-facebook
+        &:before
+            content li-facebook
+    &-pinterest
+        &:before
+            content li-pinterest
+    &-twitter
+        &:before
+            content li-twitter
+    &-snapchat
+        &:before
+            content li-snapchat
+    &-vimeo
+        &:before
+            content li-vimeo
     &-youtube
         &:before
             content li-youtube
-
-    &-angle-top
+    &-spotify
         &:before
-            content li-angle-top
-
-    &-angle-down
+            content li-spotify
+    &-slack
         &:before
-            content li-angle-down
-
-    &-angle-left
+            content li-slack
+    &-skype
         &:before
-            content li-angle-left
-
-    &-angle-right
+            content li-skype
+    &-foursquare
         &:before
-            content li-angle-right
-
-    &-angle-double-top
+            content li-foursquare
+    &-paypal
         &:before
-            content li-angle-double-top
-
+            content li-paypal
+    &-wikipedia
+        &:before
+            content li-wikipedia
     &-angle-double-down
         &:before
             content li-angle-double-down
-
     &-angle-double-left
         &:before
             content li-angle-double-left
-
     &-angle-double-right
         &:before
             content li-angle-double-right
-
-    &-arrow-top
+    &-angle-double-top
         &:before
-            content li-arrow-top
-
-    &-arrow-top-right
+            content li-angle-double-top
+    &-angle-down
         &:before
-            content li-arrow-top-right
-
-    &-arrow-right
+            content li-angle-down
+    &-angle-left
         &:before
-            content li-arrow-right
-
-    &-arrow-down-right
+            content li-angle-left
+    &-angle-right
         &:before
-            content li-arrow-down-right
-
-    &-arrow-down
+            content li-angle-right
+    &-angle-top
         &:before
-            content li-arrow-down
-
-    &-arrow-down-left
-        &:before
-            content li-arrow-down-left
-
-    &-arrow-left
-        &:before
-            content li-arrow-left
-
-    &-arrow-top-left
-        &:before
-            content li-arrow-top-left
-
-    &-arrows
-        &:before
-            content li-arrows
-
-    &-arrows-alt
-        &:before
-            content li-arrows-alt
-
-    &-arrows-oblique
-        &:before
-            content li-arrows-oblique
-
-    &-arrows-oblique-alt
-        &:before
-            content li-arrows-oblique-alt
-
-    &-arrows-h
-        &:before
-            content li-arrows-h
-
-    &-arrows-v
-        &:before
-            content li-arrows-v
-
-    &-slide-h
-        &:before
-            content li-slide-h
-
-    &-slide-v
-        &:before
-            content li-slide-v
-
-    &-caret-top
-        &:before
-            content li-caret-top
-
-    &-caret-down
-        &:before
-            content li-caret-down
-
-    &-caret-left
-        &:before
-            content li-caret-left
-
-    &-caret-right
-        &:before
-            content li-caret-right
-
-    &-angles-alt
-        &:before
-            content li-angles-alt
-
+            content li-angle-top
     &-angles
         &:before
             content li-angles
-
+    &-angles-alt
+        &:before
+            content li-angles-alt
+    &-arrow-down-left
+        &:before
+            content li-arrow-down-left
+    &-arrow-down-right
+        &:before
+            content li-arrow-down-right
+    &-arrow-down
+        &:before
+            content li-arrow-down
+    &-arrow-left
+        &:before
+            content li-arrow-left
+    &-arrow-right
+        &:before
+            content li-arrow-right
+    &-arrow-top-left
+        &:before
+            content li-arrow-top-left
+    &-arrow-top-right
+        &:before
+            content li-arrow-top-right
+    &-arrow-top
+        &:before
+            content li-arrow-top
+    &-arrows-h
+        &:before
+            content li-arrows-h
+    &-arrows-oblique-alt
+        &:before
+            content li-arrows-oblique-alt
+    &-arrows-oblique
+        &:before
+            content li-arrows-oblique
+    &-arrows-v
+        &:before
+            content li-arrows-v
+    &-arrows-alt
+        &:before
+            content li-arrows-alt
+    &-arrows
+        &:before
+            content li-arrows
+    &-caret-down
+        &:before
+            content li-caret-down
+    &-caret-left
+        &:before
+            content li-caret-left
+    &-caret-right
+        &:before
+            content li-caret-right
+    &-caret-top
+        &:before
+            content li-caret-top
     &-loading
         &:before
             content li-loading
-
     &-restart
         &:before
             content li-restart
+    &-random
+        &:before
+            content li-random
+    &-slide-h
+        &:before
+            content li-slide-h
+    &-slide-h-alt
+        &:before
+            content li-slide-h-alt
+    &-slide-v
+        &:before
+            content li-slide-v
+    &-slide-v-alt
+        &:before
+            content li-slide-v-alt
 

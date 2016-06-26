@@ -1,0 +1,1230 @@
+/*!
+ *  licons by Jan Klever - @janklever - http://kleverspace.github.io/licons/
+ */
+
+.licons {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(sprite.png);
+}
+.li-accessibility {
+    width: 17px;
+    height: 32px;
+    background-position: 0 0;
+}
+.li-accessibility-alt {
+    width: 15px;
+    height: 32px;
+    background-position: -48px 0;
+}
+.li-deaf {
+    width: 17px;
+    height: 32px;
+    background-position: -96px 0;
+}
+.li-bullhorn {
+    width: 18px;
+    height: 32px;
+    background-position: -144px 0;
+}
+.li-certificate {
+    width: 22px;
+    height: 32px;
+    background-position: -192px 0;
+}
+.li-check {
+    width: 17px;
+    height: 32px;
+    background-position: -240px 0;
+}
+.li-close {
+    width: 15px;
+    height: 32px;
+    background-position: -288px 0;
+}
+.li-minus {
+    width: 16px;
+    height: 32px;
+    background-position: -336px 0;
+}
+.li-plus {
+    width: 18px;
+    height: 32px;
+    background-position: -384px 0;
+}
+.li-more-or-less {
+    width: 12px;
+    height: 32px;
+    background-position: -432px 0;
+}
+.li-divide {
+    width: 16px;
+    height: 32px;
+    background-position: -480px 0;
+}
+.li-percent {
+    width: 15px;
+    height: 32px;
+    background-position: -528px 0;
+}
+.li-permille {
+    width: 19px;
+    height: 32px;
+    background-position: -576px 0;
+}
+.li-dollar {
+    width: 8px;
+    height: 32px;
+    background-position: -624px 0;
+}
+.li-delivery {
+    width: 23px;
+    height: 32px;
+    background-position: -672px 0;
+}
+.li-door-lock {
+    width: 14px;
+    height: 32px;
+    background-position: -720px 0;
+}
+.li-door {
+    width: 14px;
+    height: 32px;
+    background-position: 0 -48px;
+}
+.li-eye {
+    width: 21px;
+    height: 32px;
+    background-position: -48px -48px;
+}
+.li-eye-slash {
+    width: 21px;
+    height: 32px;
+    background-position: -96px -48px;
+}
+.li-flag {
+    width: 16px;
+    height: 32px;
+    background-position: -144px -48px;
+}
+.li-folder {
+    width: 23px;
+    height: 32px;
+    background-position: -192px -48px;
+}
+.li-archive {
+    width: 16px;
+    height: 32px;
+    background-position: -240px -48px;
+}
+.li-paper {
+    width: 16px;
+    height: 32px;
+    background-position: -288px -48px;
+}
+.li-paperclip {
+    width: 20px;
+    height: 32px;
+    background-position: -336px -48px;
+}
+.li-download {
+    width: 14px;
+    height: 32px;
+    background-position: -384px -48px;
+}
+.li-upload {
+    width: 14px;
+    height: 32px;
+    background-position: -432px -48px;
+}
+.li-note {
+    width: 17px;
+    height: 32px;
+    background-position: -480px -48px;
+}
+.li-pencil {
+    width: 19px;
+    height: 32px;
+    background-position: -528px -48px;
+}
+.li-trash {
+    width: 17px;
+    height: 32px;
+    background-position: -576px -48px;
+}
+.li-printer {
+    width: 22px;
+    height: 32px;
+    background-position: -624px -48px;
+}
+.li-filter {
+    width: 21px;
+    height: 32px;
+    background-position: -672px -48px;
+}
+.li-balloons {
+    width: 20px;
+    height: 32px;
+    background-position: -720px -48px;
+}
+.li-birthday-cake {
+    width: 20px;
+    height: 32px;
+    background-position: 0 -96px;
+}
+.li-gift {
+    width: 15px;
+    height: 32px;
+    background-position: -48px -96px;
+}
+.li-graduation-cap {
+    width: 22px;
+    height: 32px;
+    background-position: -96px -96px;
+}
+.li-university {
+    width: 22px;
+    height: 32px;
+    background-position: -144px -96px;
+}
+.li-trophy {
+    width: 21px;
+    height: 32px;
+    background-position: -192px -96px;
+}
+.li-black-tie {
+    width: 14px;
+    height: 32px;
+    background-position: -240px -96px;
+}
+.li-hashtag {
+    width: 16px;
+    height: 32px;
+    background-position: -288px -96px;
+}
+.li-asterisk {
+    width: 18px;
+    height: 32px;
+    background-position: -336px -96px;
+}
+.li-ampersand {
+    width: 13px;
+    height: 32px;
+    background-position: -384px -96px;
+}
+.li-home {
+    width: 20px;
+    height: 32px;
+    background-position: -432px -96px;
+}
+.li-menu {
+    width: 16px;
+    height: 32px;
+    background-position: -480px -96px;
+}
+.li-options {
+    width: 15px;
+    height: 32px;
+    background-position: -528px -96px;
+}
+.li-dots-v {
+    width: 5px;
+    height: 32px;
+    background-position: -576px -96px;
+}
+.li-dots-h {
+    width: 18px;
+    height: 32px;
+    background-position: -624px -96px;
+}
+.li-calendar {
+    width: 19px;
+    height: 32px;
+    background-position: -672px -96px;
+}
+.li-clock {
+    width: 19px;
+    height: 32px;
+    background-position: -720px -96px;
+}
+.li-bell {
+    width: 19px;
+    height: 32px;
+    background-position: 0 -144px;
+}
+.li-share {
+    width: 15px;
+    height: 32px;
+    background-position: -48px -144px;
+}
+.li-comment {
+    width: 18px;
+    height: 32px;
+    background-position: -96px -144px;
+}
+.li-chat {
+    width: 21px;
+    height: 32px;
+    background-position: -144px -144px;
+}
+.li-search {
+    width: 16px;
+    height: 32px;
+    background-position: -192px -144px;
+}
+.li-settings {
+    width: 22px;
+    height: 32px;
+    background-position: -240px -144px;
+}
+.li-hourglass {
+    width: 14px;
+    height: 32px;
+    background-position: -288px -144px;
+}
+.li-rss {
+    width: 17px;
+    height: 32px;
+    background-position: -336px -144px;
+}
+.li-infinity {
+    width: 21px;
+    height: 32px;
+    background-position: -384px -144px;
+}
+.li-cursor {
+    width: 11px;
+    height: 32px;
+    background-position: -432px -144px;
+}
+.li-laptop {
+    width: 24px;
+    height: 32px;
+    background-position: -480px -144px;
+}
+.li-bug {
+    width: 19px;
+    height: 32px;
+    background-position: -528px -144px;
+}
+.li-leaf {
+    width: 19px;
+    height: 32px;
+    background-position: -576px -144px;
+}
+.li-anchor {
+    width: 19px;
+    height: 32px;
+    background-position: -624px -144px;
+}
+.li-link {
+    width: 21px;
+    height: 32px;
+    background-position: -672px -144px;
+}
+.li-magnet {
+    width: 17px;
+    height: 32px;
+    background-position: -720px -144px;
+}
+.li-magnet-alt {
+    width: 17px;
+    height: 32px;
+    background-position: 0 -192px;
+}
+.li-location-arrow {
+    width: 18px;
+    height: 32px;
+    background-position: -48px -192px;
+}
+.li-map-marker {
+    width: 16px;
+    height: 32px;
+    background-position: -96px -192px;
+}
+.li-phone {
+    width: 19px;
+    height: 32px;
+    background-position: -144px -192px;
+}
+.li-mobile {
+    width: 15px;
+    height: 32px;
+    background-position: -192px -192px;
+}
+.li-envelope {
+    width: 21px;
+    height: 32px;
+    background-position: -240px -192px;
+}
+.li-at {
+    width: 16px;
+    height: 32px;
+    background-position: -288px -192px;
+}
+.li-battery-full {
+    width: 19px;
+    height: 32px;
+    background-position: -336px -192px;
+}
+.li-battery-half {
+    width: 19px;
+    height: 32px;
+    background-position: -384px -192px;
+}
+.li-battery-empty {
+    width: 19px;
+    height: 32px;
+    background-position: -432px -192px;
+}
+.li-music {
+    width: 16px;
+    height: 32px;
+    background-position: -480px -192px;
+}
+.li-music-alt {
+    width: 11px;
+    height: 32px;
+    background-position: -528px -192px;
+}
+.li-headphones {
+    width: 18px;
+    height: 32px;
+    background-position: -576px -192px;
+}
+.li-paper-plane {
+    width: 16px;
+    height: 32px;
+    background-position: -624px -192px;
+}
+.li-plug {
+    width: 18px;
+    height: 32px;
+    background-position: -672px -192px;
+}
+.li-turn-off {
+    width: 16px;
+    height: 32px;
+    background-position: -720px -192px;
+}
+.li-question {
+    width: 9px;
+    height: 32px;
+    background-position: 0 -240px;
+}
+.li-exclamation {
+    width: 2px;
+    height: 32px;
+    background-position: -48px -240px;
+}
+.li-quote-left {
+    width: 19px;
+    height: 32px;
+    background-position: -96px -240px;
+}
+.li-quote-right {
+    width: 20px;
+    height: 32px;
+    background-position: -144px -240px;
+}
+.li-quotes {
+    width: 19px;
+    height: 32px;
+    background-position: -192px -240px;
+}
+.li-copyright {
+    width: 20px;
+    height: 32px;
+    background-position: -240px -240px;
+}
+.li-registered {
+    width: 19px;
+    height: 32px;
+    background-position: -288px -240px;
+}
+.li-trademark {
+    width: 10px;
+    height: 32px;
+    background-position: -336px -240px;
+}
+.li-tag {
+    width: 17px;
+    height: 32px;
+    background-position: -384px -240px;
+}
+.li-heart {
+    width: 17px;
+    height: 32px;
+    background-position: -432px -240px;
+}
+.li-heartbeat {
+    width: 23px;
+    height: 32px;
+    background-position: -480px -240px;
+}
+.li-star {
+    width: 22px;
+    height: 32px;
+    background-position: -528px -240px;
+}
+.li-star-half {
+    width: 22px;
+    height: 32px;
+    background-position: -576px -240px;
+}
+.li-star-alt {
+    width: 23px;
+    height: 32px;
+    background-position: -624px -240px;
+}
+.li-thumbs-up {
+    width: 17px;
+    height: 32px;
+    background-position: -672px -240px;
+}
+.li-thumbs-down {
+    width: 17px;
+    height: 32px;
+    background-position: -720px -240px;
+}
+.li-ban {
+    width: 16px;
+    height: 32px;
+    background-position: 0 -288px;
+}
+.li-lock {
+    width: 13px;
+    height: 32px;
+    background-position: -48px -288px;
+}
+.li-unlock {
+    width: 13px;
+    height: 32px;
+    background-position: -96px -288px;
+}
+.li-unlock-alt {
+    width: 18px;
+    height: 32px;
+    background-position: -144px -288px;
+}
+.li-user {
+    width: 19px;
+    height: 32px;
+    background-position: -192px -288px;
+}
+.li-user-alt {
+    width: 16px;
+    height: 32px;
+    background-position: -240px -288px;
+}
+.li-users {
+    width: 20px;
+    height: 32px;
+    background-position: -288px -288px;
+}
+.li-users-alt {
+    width: 23px;
+    height: 32px;
+    background-position: -336px -288px;
+}
+.li-info {
+    width: 7px;
+    height: 32px;
+    background-position: -384px -288px;
+}
+.li-warning {
+    width: 21px;
+    height: 32px;
+    background-position: -432px -288px;
+}
+.li-bluetooth {
+    width: 10px;
+    height: 32px;
+    background-position: -480px -288px;
+}
+.li-signal {
+    width: 17px;
+    height: 32px;
+    background-position: -528px -288px;
+}
+.li-wireless {
+    width: 21px;
+    height: 32px;
+    background-position: -576px -288px;
+}
+.li-bike {
+    width: 31px;
+    height: 32px;
+    background-position: -624px -288px;
+}
+.li-bus {
+    width: 17px;
+    height: 32px;
+    background-position: -672px -288px;
+}
+.li-car {
+    width: 17px;
+    height: 32px;
+    background-position: -720px -288px;
+}
+.li-subway {
+    width: 24px;
+    height: 32px;
+    background-position: 0 -336px;
+}
+.li-train {
+    width: 17px;
+    height: 32px;
+    background-position: -48px -336px;
+}
+.li-book {
+    width: 18px;
+    height: 32px;
+    background-position: -96px -336px;
+}
+.li-bookmaker {
+    width: 12px;
+    height: 32px;
+    background-position: -144px -336px;
+}
+.li-glasses {
+    width: 23px;
+    height: 32px;
+    background-position: -192px -336px;
+}
+.li-key {
+    width: 18px;
+    height: 32px;
+    background-position: -240px -336px;
+}
+.li-briefcase {
+    width: 22px;
+    height: 32px;
+    background-position: -288px -336px;
+}
+.li-suitcase {
+    width: 20px;
+    height: 32px;
+    background-position: -336px -336px;
+}
+.li-picture {
+    width: 23px;
+    height: 32px;
+    background-position: -384px -336px;
+}
+.li-camera {
+    width: 21px;
+    height: 32px;
+    background-position: -432px -336px;
+}
+.li-flash {
+    width: 14px;
+    height: 32px;
+    background-position: -480px -336px;
+}
+.li-coffee {
+    width: 18px;
+    height: 32px;
+    background-position: -528px -336px;
+}
+.li-diamond {
+    width: 21px;
+    height: 32px;
+    background-position: -576px -336px;
+}
+.li-float {
+    width: 17px;
+    height: 32px;
+    background-position: -624px -336px;
+}
+.li-fruit-apple {
+    width: 21px;
+    height: 32px;
+    background-position: -672px -336px;
+}
+.li-glass {
+    width: 15px;
+    height: 32px;
+    background-position: -720px -336px;
+}
+.li-stethoscope {
+    width: 17px;
+    height: 32px;
+    background-position: 0 -384px;
+}
+.li-atom {
+    width: 21px;
+    height: 32px;
+    background-position: -48px -384px;
+}
+.li-kitasato {
+    width: 17px;
+    height: 32px;
+    background-position: -96px -384px;
+}
+.li-test-tube {
+    width: 8px;
+    height: 32px;
+    background-position: -144px -384px;
+}
+.li-drop {
+    width: 13px;
+    height: 32px;
+    background-position: -192px -384px;
+}
+.li-drugs {
+    width: 18px;
+    height: 32px;
+    background-position: -240px -384px;
+}
+.li-light {
+    width: 15px;
+    height: 32px;
+    background-position: -288px -384px;
+}
+.li-balance {
+    width: 26px;
+    height: 32px;
+    background-position: -336px -384px;
+}
+.li-line-chart {
+    width: 26px;
+    height: 32px;
+    background-position: -384px -384px;
+}
+.li-pie-chart {
+    width: 20px;
+    height: 32px;
+    background-position: -432px -384px;
+}
+.li-map {
+    width: 19px;
+    height: 32px;
+    background-position: -480px -384px;
+}
+.li-mouse {
+    width: 17px;
+    height: 32px;
+    background-position: -528px -384px;
+}
+.li-compact-disc {
+    width: 24px;
+    height: 32px;
+    background-position: -576px -384px;
+}
+.li-pin {
+    width: 11px;
+    height: 32px;
+    background-position: -624px -384px;
+}
+.li-pin-alt {
+    width: 17px;
+    height: 32px;
+    background-position: -672px -384px;
+}
+.li-sun {
+    width: 21px;
+    height: 32px;
+    background-position: -720px -384px;
+}
+.li-moon {
+    width: 14px;
+    height: 32px;
+    background-position: 0 -432px;
+}
+.li-cloud {
+    width: 26px;
+    height: 32px;
+    background-position: -48px -432px;
+}
+.li-bolt {
+    width: 10px;
+    height: 32px;
+    background-position: -96px -432px;
+}
+.li-umbrella {
+    width: 19px;
+    height: 32px;
+    background-position: -144px -432px;
+}
+.li-planet {
+    width: 24px;
+    height: 32px;
+    background-position: -192px -432px;
+}
+.li-rocket {
+    width: 20px;
+    height: 32px;
+    background-position: -240px -432px;
+}
+.li-shield {
+    width: 19px;
+    height: 32px;
+    background-position: -288px -432px;
+}
+.li-skull {
+    width: 18px;
+    height: 32px;
+    background-position: -336px -432px;
+}
+.li-target {
+    width: 22px;
+    height: 32px;
+    background-position: -384px -432px;
+}
+.li-play {
+    width: 16px;
+    height: 32px;
+    background-position: -432px -432px;
+}
+.li-pause {
+    width: 9px;
+    height: 32px;
+    background-position: -480px -432px;
+}
+.li-stop {
+    width: 15px;
+    height: 32px;
+    background-position: -528px -432px;
+}
+.li-rec {
+    width: 15px;
+    height: 32px;
+    background-position: -576px -432px;
+}
+.li-fast-backward {
+    width: 19px;
+    height: 32px;
+    background-position: -624px -432px;
+}
+.li-fast-forward {
+    width: 19px;
+    height: 32px;
+    background-position: -672px -432px;
+}
+.li-backward {
+    width: 19px;
+    height: 32px;
+    background-position: -720px -432px;
+}
+.li-forward {
+    width: 19px;
+    height: 32px;
+    background-position: 0 -480px;
+}
+.li-step-left {
+    width: 13px;
+    height: 32px;
+    background-position: -48px -480px;
+}
+.li-step-right {
+    width: 13px;
+    height: 32px;
+    background-position: -96px -480px;
+}
+.li-left {
+    width: 13px;
+    height: 32px;
+    background-position: -144px -480px;
+}
+.li-right {
+    width: 13px;
+    height: 32px;
+    background-position: -192px -480px;
+}
+.li-video-camera {
+    width: 21px;
+    height: 32px;
+    background-position: -240px -480px;
+}
+.li-microphone {
+    width: 13px;
+    height: 32px;
+    background-position: -288px -480px;
+}
+.li-volume-up {
+    width: 25px;
+    height: 32px;
+    background-position: -336px -480px;
+}
+.li-volume-down {
+    width: 21px;
+    height: 32px;
+    background-position: -384px -480px;
+}
+.li-volume {
+    width: 16px;
+    height: 32px;
+    background-position: -432px -480px;
+}
+.li-volume-off {
+    width: 16px;
+    height: 32px;
+    background-position: -480px -480px;
+}
+.li-maximize {
+    width: 15px;
+    height: 32px;
+    background-position: -528px -480px;
+}
+.li-minimize {
+    width: 15px;
+    height: 32px;
+    background-position: -576px -480px;
+}
+.li-female {
+    width: 14px;
+    height: 32px;
+    background-position: -624px -480px;
+}
+.li-male {
+    width: 18px;
+    height: 32px;
+    background-position: -672px -480px;
+}
+.li-mars-double {
+    width: 22px;
+    height: 32px;
+    background-position: -720px -480px;
+}
+.li-venus-double {
+    width: 20px;
+    height: 32px;
+    background-position: 0 -528px;
+}
+.li-intersex {
+    width: 18px;
+    height: 32px;
+    background-position: -48px -528px;
+}
+.li-venus-mars {
+    width: 24px;
+    height: 32px;
+    background-position: -96px -528px;
+}
+.li-mars-stroke-h {
+    width: 22px;
+    height: 32px;
+    background-position: -144px -528px;
+}
+.li-mars-stroke-v {
+    width: 14px;
+    height: 32px;
+    background-position: -192px -528px;
+}
+.li-transgender {
+    width: 21px;
+    height: 32px;
+    background-position: -240px -528px;
+}
+.li-mercury {
+    width: 14px;
+    height: 32px;
+    background-position: -288px -528px;
+}
+.li-neuter {
+    width: 14px;
+    height: 32px;
+    background-position: -336px -528px;
+}
+.li-genderless {
+    width: 14px;
+    height: 32px;
+    background-position: -384px -528px;
+}
+.li-apple {
+    width: 17px;
+    height: 32px;
+    background-position: -432px -528px;
+}
+.li-google {
+    width: 19px;
+    height: 32px;
+    background-position: -480px -528px;
+}
+.li-windows {
+    width: 19px;
+    height: 32px;
+    background-position: -528px -528px;
+}
+.li-codepen {
+    width: 18px;
+    height: 32px;
+    background-position: -576px -528px;
+}
+.li-behance {
+    width: 21px;
+    height: 32px;
+    background-position: -624px -528px;
+}
+.li-dribbble {
+    width: 19px;
+    height: 32px;
+    background-position: -672px -528px;
+}
+.li-flickr {
+    width: 22px;
+    height: 32px;
+    background-position: -720px -528px;
+}
+.li-instagram {
+    width: 18px;
+    height: 32px;
+    background-position: 0 -576px;
+}
+.li-linkedin {
+    width: 17px;
+    height: 32px;
+    background-position: -48px -576px;
+}
+.li-medium {
+    width: 19px;
+    height: 32px;
+    background-position: -96px -576px;
+}
+.li-blogger {
+    width: 17px;
+    height: 32px;
+    background-position: -144px -576px;
+}
+.li-wordpress {
+    width: 19px;
+    height: 32px;
+    background-position: -192px -576px;
+}
+.li-facebook {
+    width: 13px;
+    height: 32px;
+    background-position: -240px -576px;
+}
+.li-pinterest {
+    width: 15px;
+    height: 32px;
+    background-position: -288px -576px;
+}
+.li-twitter {
+    width: 22px;
+    height: 32px;
+    background-position: -336px -576px;
+}
+.li-snapchat {
+    width: 18px;
+    height: 32px;
+    background-position: -384px -576px;
+}
+.li-vimeo {
+    width: 18px;
+    height: 32px;
+    background-position: -432px -576px;
+}
+.li-youtube {
+    width: 23px;
+    height: 32px;
+    background-position: -480px -576px;
+}
+.li-spotify {
+    width: 19px;
+    height: 32px;
+    background-position: -528px -576px;
+}
+.li-slack {
+    width: 17px;
+    height: 32px;
+    background-position: -576px -576px;
+}
+.li-skype {
+    width: 21px;
+    height: 32px;
+    background-position: -624px -576px;
+}
+.li-foursquare {
+    width: 13px;
+    height: 32px;
+    background-position: -672px -576px;
+}
+.li-paypal {
+    width: 16px;
+    height: 32px;
+    background-position: -720px -576px;
+}
+.li-wikipedia {
+    width: 23px;
+    height: 32px;
+    background-position: 0 -624px;
+}
+.li-angle-double-down {
+    width: 15px;
+    height: 32px;
+    background-position: -48px -624px;
+}
+.li-angle-double-left {
+    width: 13px;
+    height: 32px;
+    background-position: -96px -624px;
+}
+.li-angle-double-right {
+    width: 13px;
+    height: 32px;
+    background-position: -144px -624px;
+}
+.li-angle-double-top {
+    width: 15px;
+    height: 32px;
+    background-position: -192px -624px;
+}
+.li-angle-down {
+    width: 15px;
+    height: 32px;
+    background-position: -240px -624px;
+}
+.li-angle-left {
+    width: 8px;
+    height: 32px;
+    background-position: -288px -624px;
+}
+.li-angle-right {
+    width: 8px;
+    height: 32px;
+    background-position: -336px -624px;
+}
+.li-angle-top {
+    width: 15px;
+    height: 32px;
+    background-position: -384px -624px;
+}
+.li-angles {
+    width: 20px;
+    height: 32px;
+    background-position: -432px -624px;
+}
+.li-angles-alt {
+    width: 15px;
+    height: 32px;
+    background-position: -480px -624px;
+}
+.li-arrow-down-left {
+    width: 15px;
+    height: 32px;
+    background-position: -528px -624px;
+}
+.li-arrow-down-right {
+    width: 15px;
+    height: 32px;
+    background-position: -576px -624px;
+}
+.li-arrow-down {
+    width: 15px;
+    height: 32px;
+    background-position: -624px -624px;
+}
+.li-arrow-left {
+    width: 20px;
+    height: 32px;
+    background-position: -672px -624px;
+}
+.li-arrow-right {
+    width: 20px;
+    height: 32px;
+    background-position: -720px -624px;
+}
+.li-arrow-top-left {
+    width: 15px;
+    height: 32px;
+    background-position: 0 -672px;
+}
+.li-arrow-top-right {
+    width: 15px;
+    height: 32px;
+    background-position: -48px -672px;
+}
+.li-arrow-top {
+    width: 15px;
+    height: 32px;
+    background-position: -96px -672px;
+}
+.li-arrows-h {
+    width: 20px;
+    height: 32px;
+    background-position: -144px -672px;
+}
+.li-arrows-oblique-alt {
+    width: 15px;
+    height: 32px;
+    background-position: -192px -672px;
+}
+.li-arrows-oblique {
+    width: 14px;
+    height: 32px;
+    background-position: -240px -672px;
+}
+.li-arrows-v {
+    width: 6px;
+    height: 32px;
+    background-position: -288px -672px;
+}
+.li-arrows-alt {
+    width: 15px;
+    height: 32px;
+    background-position: -336px -672px;
+}
+.li-arrows {
+    width: 20px;
+    height: 32px;
+    background-position: -384px -672px;
+}
+.li-caret-down {
+    width: 20px;
+    height: 32px;
+    background-position: -432px -672px;
+}
+.li-caret-left {
+    width: 13px;
+    height: 32px;
+    background-position: -480px -672px;
+}
+.li-caret-right {
+    width: 13px;
+    height: 32px;
+    background-position: -528px -672px;
+}
+.li-caret-top {
+    width: 20px;
+    height: 32px;
+    background-position: -576px -672px;
+}
+.li-loading {
+    width: 18px;
+    height: 32px;
+    background-position: -624px -672px;
+}
+.li-restart {
+    width: 17px;
+    height: 32px;
+    background-position: -672px -672px;
+}
+.li-random {
+    width: 17px;
+    height: 32px;
+    background-position: -720px -672px;
+}
+.li-slide-h {
+    width: 20px;
+    height: 32px;
+    background-position: 0 -720px;
+}
+.li-slide-h-alt {
+    width: 19px;
+    height: 32px;
+    background-position: -48px -720px;
+}
+.li-slide-v {
+    width: 20px;
+    height: 32px;
+    background-position: -96px -720px;
+}
+.li-slide-v-alt {
+    width: 13px;
+    height: 32px;
+    background-position: -144px -720px;
+}
+
