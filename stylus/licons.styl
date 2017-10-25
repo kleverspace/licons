@@ -1,13 +1,13 @@
 /*!
- *  licons by Jan Klever - @janklever - http://kleverspace.github.io/licons/
+ *  licons by Jan Klever - @janklever - https://licons.klever.space/
  */
 
 @import "variables"
 
 @font-face
     font-family 'licons'
-    src url('../fonts/licons.eot?v=2.0')
-    src url('../fonts/licons.eot?v=2.0#iefix') format('embedded-opentype'), url('../fonts/licons.ttf?v=2.0') format('truetype'), url('../fonts/licons.woff?v=2.0') format('woff'), url('../fonts/licons.woff2?v=2.0') format('woff2'), url('../fonts/licons.svg?v=2.0#licons') format('svg')
+    src url('../fonts/licons.eot?v=2.2')
+    src url('../fonts/licons.eot?v=2.2#iefix') format('embedded-opentype'), url('../fonts/licons.ttf?v=2.2') format('truetype'), url('../fonts/licons.woff?v=2.2') format('woff'), url('../fonts/licons.woff2?v=2.2') format('woff2'), url('../fonts/licons.svg?v=2.2#licons') format('svg')
     font-weight normal
     font-style normal
 
@@ -19,8 +19,8 @@
     font-variant normal
     text-transform none
     line-height 1
-    
-    /* Enable Ligatures ================ */
+
+    // Enable Ligatures
     letter-spacing 0
     -webkit-font-feature-settings "liga"
     -moz-font-feature-settings "liga=1"
@@ -30,7 +30,7 @@
     -webkit-font-variant-ligatures discretionary-ligatures;
     font-variant-ligatures discretionary-ligatures;
 
-    /* Better Font Rendering =========== */
+    // Better Font Rendering
     -webkit-font-smoothing antialiased
     -moz-osx-font-smoothing grayscale
 
@@ -46,6 +46,9 @@
         font-size 5rem
 
     // CHARACTERS
+    &-universal-access
+        &:before
+            content li-universal-access
     &-accessibility
         &:before
             content li-accessibility
@@ -88,6 +91,24 @@
     &-dollar
         &:before
             content li-dollar
+    &-euro
+        &:before
+            content li-euro
+    &-pound-sterling
+        &:before
+            content li-pound-sterling
+    &-yen
+        &:before
+            content li-yen
+    &-bitcoin
+        &:before
+            content li-bitcoin
+    &-credit-card
+        &:before
+            content li-credit-card
+    &-credit-card-alt
+        &:before
+            content li-credit-card-alt
     &-delivery
         &:before
             content li-delivery
@@ -361,12 +382,18 @@
     &-info
         &:before
             content li-info
+    &-info-alt
+        &:before
+            content li-info-alt
     &-warning
         &:before
             content li-warning
     &-bluetooth
         &:before
             content li-bluetooth
+    &-nfc
+        &:before
+            content li-nfc
     &-signal
         &:before
             content li-signal
@@ -388,6 +415,12 @@
     &-train
         &:before
             content li-train
+    &-truck
+        &:before
+            content li-truck
+    &-airplane
+        &:before
+            content li-airplane
     &-book
         &:before
             content li-book
@@ -496,6 +529,9 @@
     &-rocket
         &:before
             content li-rocket
+    &-space-shuttle
+        &:before
+            content li-space-shuttle
     &-shield
         &:before
             content li-shield
@@ -601,27 +637,42 @@
     &-genderless
         &:before
             content li-genderless
+    &-android
+        &:before
+            content li-android
     &-apple
         &:before
             content li-apple
-    &-google
-        &:before
-            content li-google
-    &-windows
-        &:before
-            content li-windows
-    &-codepen
-        &:before
-            content li-codepen
     &-behance
         &:before
             content li-behance
+    &-bitbucket
+        &:before
+            content li-bitbucket
+    &-blogger
+        &:before
+            content li-blogger
+    &-codepen
+        &:before
+            content li-codepen
     &-dribbble
         &:before
             content li-dribbble
+    &-facebook
+        &:before
+            content li-facebook
     &-flickr
         &:before
             content li-flickr
+    &-foursquare
+        &:before
+            content li-foursquare
+    &-github
+        &:before
+            content li-github
+    &-google
+        &:before
+            content li-google
     &-instagram
         &:before
             content li-instagram
@@ -631,48 +682,48 @@
     &-medium
         &:before
             content li-medium
-    &-blogger
-        &:before
-            content li-blogger
-    &-wordpress
-        &:before
-            content li-wordpress
-    &-facebook
-        &:before
-            content li-facebook
-    &-pinterest
-        &:before
-            content li-pinterest
-    &-twitter
-        &:before
-            content li-twitter
-    &-snapchat
-        &:before
-            content li-snapchat
-    &-vimeo
-        &:before
-            content li-vimeo
-    &-youtube
-        &:before
-            content li-youtube
-    &-spotify
-        &:before
-            content li-spotify
-    &-slack
-        &:before
-            content li-slack
-    &-skype
-        &:before
-            content li-skype
-    &-foursquare
-        &:before
-            content li-foursquare
     &-paypal
         &:before
             content li-paypal
+    &-pinterest
+        &:before
+            content li-pinterest
+    &-skype
+        &:before
+            content li-skype
+    &-slack
+        &:before
+            content li-slack
+    &-snapchat
+        &:before
+            content li-snapchat
+    &-soundcloud
+        &:before
+            content li-soundcloud
+    &-spotify
+        &:before
+            content li-spotify
+    &-twitch
+        &:before
+            content li-twitch
+    &-twitter
+        &:before
+            content li-twitter
+    &-vimeo
+        &:before
+            content li-vimeo
     &-wikipedia
         &:before
             content li-wikipedia
+    &-windows
+        &:before
+            content li-windows
+    &-wordpress
+        &:before
+            content li-wordpress
+    &-youtube
+        &:before
+            content li-youtube
     &-angle-double-down
         &:before
             content li-angle-double-down
@@ -778,4 +829,3 @@
     &-slide-v-alt
         &:before
             content li-slide-v-alt
-

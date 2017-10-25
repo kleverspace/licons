@@ -1,19 +1,19 @@
 <p align="center"><img src="http://licons.janklever.com.br/examples/licons.png"/></p>
 
-### line style icons [v2.0]
+### line style icons [v2.2]
 
-Licons is a set with 200+ icons in line style created since 2014.
+Licons is a set with 250+ icons in line style created since 2014.
 Created and maintained by [Jan Klever](http://janklever.com.br).
 
 
 ## News
 
-- 36 new icons!
+- 17 new icons!
 
 
 ## Use, mapping and details
 
-- https://kleverspace.github.io/licons/
+- https://licons.klever.space/
 
 
 ## Portfolio project
@@ -36,6 +36,7 @@ Created and maintained by [Jan Klever](http://janklever.com.br).
 ## Thanks
 - [Maicol Santos](https://github.com/maicol-dg);
 - [Evaldo Santos](https://github.com/evaldosantos);
+- [Felipe Rego](https://github.com/feliperrego);
 
 
 
