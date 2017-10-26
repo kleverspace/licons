@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'licons';
-    src: url('fonts/licons.eot?v=2.2');
-    src: url('fonts/licons.eot?v=2.2#iefix') format('embedded-opentype'),
-    url('fonts/licons.ttf?v=2.2') format('truetype'),
-    url('fonts/licons.woff?v=2.2') format('woff'),
-    url('fonts/licons.woff2?v=2.2') format('woff2'),
-    url('fonts/licons.svg?v=2.2#licons') format('svg');
+    src: url('../fonts/licons.eot?v=2.2');
+    src: url('../fonts/licons.eot?v=2.2#iefix') format('embedded-opentype'),
+         url('../fonts/licons.ttf?v=2.2') format('truetype'),
+         url('../fonts/licons.woff?v=2.2') format('woff'),
+         url('../fonts/licons.woff2?v=2.2') format('woff2'),
+         url('../fonts/licons.svg?v=2.2#licons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
